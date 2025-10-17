@@ -1,0 +1,20 @@
+import { SectionHeading } from "@/components/SectionHeading";
+import { ProjectCard } from "@/components/ProjectCard";
+import { projects } from "@/data/projects";
+
+export function Projects() {
+  return (
+    <section id="projects" className="mx-auto max-w-6xl px-4 py-16 md:py-24">
+      <SectionHeading
+        kicker="Selezione"
+        title="Progetti"
+        subtitle="Una raccolta di lavori recenti che rappresentano il mio modo di costruire prodotti: puliti, veloci, mantenibili."
+      />
+      <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {projects.map((p, idx) => (
+          <ProjectCard key={idx} {...p} />
+        ))}
+      </div>
+    </section>
+  );
+}
