@@ -11,7 +11,7 @@ export const projects = [
   {
     title: "Cristal Domino",
     description:
-      "Sviluppo del sito web per un ristorante.",
+      "Sviluppo completo del sito web per un ristorante.",
     tech: ["Wix"],
     image: "/images/cristaldomino.jpg",
     demo: "https://cristaldomino.com",

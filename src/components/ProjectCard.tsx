@@ -30,7 +30,7 @@ export function ProjectCard({ title, description, tech, image, demo, repo }: Pro
                 href={demo}
                 className="inline-flex items-center text-sm text-zinc-300 hover:text-white"
               >
-                Demo <ExternalLink className="ml-1 h-3.5 w-3.5" />
+                Link <ExternalLink className="ml-1 h-3.5 w-3.5" />
               </a>
             )}
             {repo && (
