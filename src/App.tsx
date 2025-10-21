@@ -1,4 +1,3 @@
-import { Analytics } from "@vercel/analytics/next"
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Home } from "@/pages/Home";
@@ -13,7 +12,6 @@ export default function App() {
     <div className="min-h-screen bg-neutral-950 text-zinc-100 selection:bg-cyan-500/30">
       <Header />
       <main>
-        <Analytics />
         <Home />
         <Projects />
         <About />
