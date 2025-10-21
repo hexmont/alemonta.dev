@@ -2,7 +2,7 @@
 
 Sito personale e portfolio digitale sviluppato in **React + TypeScript**, con un design **minimalista, tecnico e curato nei dettagli**.  
 
-![Anteprima del sito](./public/portfolio.png)
+![Anteprima del sito](./public/images/portfolio.jpg)
 
 ---
 
