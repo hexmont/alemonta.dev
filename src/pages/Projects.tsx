@@ -8,7 +8,7 @@ export function Projects() {
       <SectionHeading
         kicker="Selezione"
         title="Progetti"
-        subtitle="Una raccolta di lavori recenti che rappresentano il mio modo di costruire prodotti: puliti, veloci, mantenibili."
+        subtitle="Una raccolta dei miei lavori disponibili pubblicamente."
       />
       <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((p, idx) => (
