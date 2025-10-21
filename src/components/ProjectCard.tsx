@@ -28,6 +28,8 @@ export function ProjectCard({ title, description, tech, image, demo, repo }: Pro
             {demo && (
               <a
                 href={demo}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center text-sm text-zinc-300 hover:text-white"
               >
                 Link <ExternalLink className="ml-1 h-3.5 w-3.5" />
@@ -36,6 +38,8 @@ export function ProjectCard({ title, description, tech, image, demo, repo }: Pro
             {repo && (
               <a
                 href={repo}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center text-sm text-zinc-300 hover:text-white"
               >
                 Code <Github className="ml-1 h-3.5 w-3.5" />
