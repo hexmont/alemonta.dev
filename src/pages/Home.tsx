@@ -10,14 +10,14 @@ export function Home() {
       <div className="bg-amber-500/20 border-b border-amber-500/40 backdrop-blur-sm text-amber-100 text-sm text-center py-2 px-4">
         Questo sito è ancora in fase di sviluppo. Alcune funzionalità non sono ancora disponibili.
         <br />
-        In sviluppo: immagini anteprima dei progetti · contatto tramite {" "}
+        In sviluppo: form di contatto · UX/UI · contatto tramite {" "}
         <span className="font-medium" >hello@alemonta.dev</span> (usa{" "}
         <a
           href="mailto:alessionice@gmail.com"
           className="underline hover:text-amber-200 transition-colors"
         >
           alessionice@gmail.com
-        </a>) · form di contatto · miglioramenti UI
+        </a>)
       </div>
 
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent animate-pulse-slow" />
