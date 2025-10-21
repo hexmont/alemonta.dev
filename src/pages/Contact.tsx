@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { Mail, Phone } from "lucide-react";
+import { Mail, Phone, Github, Linkedin } from "lucide-react";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import { Input } from "@/components/ui/Input";
@@ -86,7 +86,7 @@ export function Contact() {
               </a>
             </p>
             <p className="flex items-center gap-2">
-              GitHub:{" "}
+              <Github className="h-4 w-4" />{" "}
               <a
                 className="underline decoration-dotted underline-offset-4 hover:text-white"
                 href={CONFIG.socials.github}
@@ -95,7 +95,7 @@ export function Contact() {
               </a>
             </p>
             <p className="flex items-center gap-2">
-              LinkedIn:{" "}
+              <Linkedin className="h-4 w-4" />{" "}
               <a
                 className="underline decoration-dotted underline-offset-4 hover:text-white"
                 href={CONFIG.socials.linkedin}
