@@ -21,7 +21,7 @@ export const projects = [
     title: "Portfolio personale",
     description:
       "Sviluppo del mio sito personale, design minimalista e presentazione dei progetti / percorsi formativi e lavorativi.",
-    tech: ["Next.js", "TypeScript", "Tailwind"],
+    tech: ["Vite", "React", "TypeScript", "Tailwind", "Framer Motion", "Lucide-react"],
     image: "/images/portfolio.jpg",
     demo: "https://alemonta.dev",
     repo: "https://github.com/hexmont/alemonta-dev",
