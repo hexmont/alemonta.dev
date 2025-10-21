@@ -3,18 +3,15 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 
 export function About() {
   const stack = [
-    "React",
-    "TypeScript",
-    "Next.js",
-    "Node.js",
-    "Fastify",
-    "Prisma",
-    "PostgreSQL",
+    "RPG ILE / IV",
+    "IBM i",
+    "Web",
+    "Git",
     "Tailwind",
-    "shadcn/ui",
-    "Framer Motion",
-    "Vitest",
-    "Playwright",
+    "React",
+    "MySQL",
+    "Java",
+    "C / C++"
   ];
 
   return (
@@ -22,7 +19,7 @@ export function About() {
       <SectionHeading
         kicker="Profilo"
         title="Chi sono"
-        subtitle="Sviluppatore orientato al prodotto: amo unire design, performance e DX."
+        subtitle="Sviluppatore software."
       />
       <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-3">
         <Card className="col-span-2">
@@ -31,8 +28,7 @@ export function About() {
           </CardHeader>
           <CardContent className="space-y-4 text-zinc-300">
             <p>
-              Prediligo soluzioni semplici e tipizzate. Scrivo codice leggibile, testabile e ben documentato.
-              Credo nella collaborazione, nel design system e nelle pipeline CI come acceleratori di qualità.
+              Un buon programma non è quello che funziona oggi, ma quello che sarà comprensibile domani.
             </p>
             <div className="flex flex-wrap gap-2 text-sm">
               {stack.map((t) => (
@@ -52,7 +48,6 @@ export function About() {
           </CardHeader>
           <CardContent className="text-zinc-300">
             <p>Freelance / Contratto · Italia / Remote</p>
-            <p className="mt-2">Interessato a: frontend, full-stack, design system, performance.</p>
           </CardContent>
         </Card>
       </div>
