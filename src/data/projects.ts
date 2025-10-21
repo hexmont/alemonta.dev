@@ -24,6 +24,6 @@ export const projects = [
     tech: ["Vite", "React", "TypeScript", "Tailwind", "Framer Motion", "Lucide-react"],
     image: "/images/portfolio.jpg",
     demo: "https://alemonta.dev",
-    repo: "https://github.com/hexmont/alemonta-dev",
+    repo: "https://github.com/hexmont/alemonta.dev",
   },
 ];
