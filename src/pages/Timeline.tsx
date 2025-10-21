@@ -2,6 +2,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { experiences } from "@/data/experiences";
 import { education } from "@/data/education";
 import { Briefcase, GraduationCap } from "lucide-react";
+import { motion } from "framer-motion";
 
 export function Timeline() {
   return (
@@ -18,16 +19,21 @@ export function Timeline() {
           </h3>
           <ol className="relative ml-3 border-l border-white/10">
             {experiences.map((e, i) => (
-              <li key={i} className="mb-8 ml-6">
-                <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500 text-neutral-950">
-                  <Briefcase className="h-3.5 w-3.5" />
-                </span>
+              <motion.li
+                key={i}
+                className="mb-8 ml-6"
+                initial={{ opacity: 0  }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.5, delay: i * 0.1 }}
+                viewport={{ once: true }}
+              >
+                <span className="absolute -left-3 h-6 w-6 rounded-full bg-cyan-500 border border-white/20 shadow-md shadow-cyan-500/30 transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-cyan-500/40" />
                 <h4 className="text-lg font-medium">
                   {e.role} · <span className="text-zinc-300">{e.org}</span>
                 </h4>
                 <p className="text-sm text-zinc-400">{e.period}</p>
                 <p className="mt-2 text-zinc-300">{e.description}</p>
-              </li>
+              </motion.li>
             ))}
           </ol>
         </div>
@@ -37,16 +43,21 @@ export function Timeline() {
           </h3>
           <ol className="relative ml-3 border-l border-white/10">
             {education.map((ed, i) => (
-              <li key={i} className="mb-8 ml-6">
-                <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500 text-neutral-950">
-                  <GraduationCap className="h-3.5 w-3.5" />
-                </span>
+              <motion.li
+                key={i}
+                className="mb-8 ml-6"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.5, delay: i * 0.1 }}
+                viewport={{ once: true }}
+              >
+                <span className="absolute -left-3 h-6 w-6 rounded-full bg-emerald-500 border border-white/20 shadow-md shadow-emerald-500/30 transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-emerald-500/40" />
                 <h4 className="text-lg font-medium">
                   {ed.title} · <span className="text-zinc-300">{ed.org}</span>
                 </h4>
                 <p className="text-sm text-zinc-400">{ed.period}</p>
                 <p className="mt-2 text-zinc-300">{ed.description}</p>
-              </li>
+              </motion.li>
             ))}
           </ol>
         </div>
