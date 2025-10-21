@@ -7,7 +7,7 @@ import { CONFIG } from "@/config";
 export function Home() {
   return (
     <section id="home" className="relative overflow-hidden">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent animate-pulse-slow" />
       <div className="mx-auto max-w-6xl px-4 py-24 md:py-28 lg:py-32">
         <motion.div
           initial={{ opacity: 0, y: 12 }}
