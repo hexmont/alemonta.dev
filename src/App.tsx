@@ -4,6 +4,7 @@ import { Home } from "@/pages/Home";
 import { Projects } from "@/pages/Projects";
 import { About } from "@/pages/About";
 import { Timeline } from "@/pages/Timeline";
+import { Blog } from "@/pages/Blog";
 import { Contact } from "@/pages/Contact";
 import "@/styles/index.css";
 
@@ -16,6 +17,7 @@ export default function App() {
         <Projects />
         <About />
         <Timeline />
+        <Blog />
         <Contact />
       </main>
       <Footer />
