@@ -5,7 +5,7 @@ export const CONFIG = {
   email: "hello@alemonta.dev",
   location: "Italia / Remote",
   socials: {
-    github: "https://github.com/hexmont",
+    github: "https://git.alemonta.dev/alemontamd5/",
     linkedin: "https://www.linkedin.com/in/alessio-montanari-978a831b5/",
     website: "https://alemonta.dev",
   },
