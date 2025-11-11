@@ -12,7 +12,7 @@ Sito personale e portfolio digitale sviluppato in **React + TypeScript**, con un
 
 ```bash
 # Clona il repository
-git clone https://github.com/hexmont/alemonta.dev.git
+git clone https://git.alemonta.dev/alemontamd5/portfolio-alemonta.git
 cd alemonta.dev
 
 # Installa le dipendenze
